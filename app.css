@@ -50,6 +50,19 @@ ul {
   border-radius: 24px;
 }
 
+.button-svg {
+  background: none;
+  border: 0;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+
+.button-svg .icon {
+  width: 100%;
+  aspect-ratio: 1;
+}
+
 .card {
   width: 100%;
   background-color: #e8e8e8;
@@ -97,4 +110,109 @@ ul {
 
 .card main footer {
   text-align: center;
+}
+
+#search {
+  width: 95%;
+  height: 36px;
+  margin: 0 auto;
+  border: 2px solid #dfdfdf;
+  border-radius: 24px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4px 0 8px;
+}
+
+#search input[name='search'] {
+  margin: 0 4px;
+  border: 0;
+  background: none;
+  flex-grow: 1;
+  padding: 0 8px;
+  width: 70%;
+}
+
+#search button[type='submit'] {
+  order: -1;
+  border: 0;
+  padding: 0;
+  background: none;
+  align-self: center;
+  display: block;
+  width: 14px;
+  height: 14px;
+  aspect-ratio: 1;
+}
+
+#search button[type='submit'] .icon {
+  width: 100%;
+  height: 100%;
+}
+
+#search .action-button[type='button'] {
+  align-self: center;
+  flex-shrink: 0;
+  background: none;
+}
+
+.card .carousel {
+  margin-top: 24px;
+}
+
+.card .carousel > h2 {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+.card .carousel ul {
+  display: flex;
+  gap: 8.42105052%;
+  overflow: auto;
+  padding-bottom: 16px;
+}
+
+.card .carousel ul li {
+  flex-shrink: 0;
+  width: 80%;
+}
+
+.card .carousel ul li header {
+  max-width: 100%;
+}
+
+.carousel-card .main {
+  border: 2px solid #d5d5d5;
+  border-radius: 16px;
+  background: linear-gradient(90deg, #d5d5d5 0%, #e6e6e6 100%);
+  position: relative;
+  padding: 36px 16px;
+}
+
+.carousel-card .main .carousel-card-controls {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  gap: 2px;
+}
+
+.carousel-card header {
+  margin-top: 8px;
+}
+
+.carousel-card header h1 {
+  font: 14px;
+}
+
+.carousel-card header h2 {
+  font: 12px;
+  font-weight: 500;
+}
+
+.carousel-card picture {
+  width: 100%;
+  display: block;
+}
+
+.carousel-card picture img {
+  width: 100%;
 }

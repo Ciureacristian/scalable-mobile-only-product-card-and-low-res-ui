@@ -4,7 +4,7 @@
   "editor.tabSize": 2,
   "liveServer.settings.donotShowInfoMsg": true,
   "files.insertFinalNewline": true,
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "html.format.wrapAttributes": "force-expand-multiline",
   "prettier.singleQuote": true,
   "javascript.format.semicolons": "insert",
